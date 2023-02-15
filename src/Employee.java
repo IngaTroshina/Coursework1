@@ -1,10 +1,10 @@
 import java.util.Objects;
 
 public class Employee {
-    private final String fio;
+    private String fio;
     private int department;
     private int salary;
-    private final int id;
+    private int id;
     private static int counter;
 
     public Employee(String fio, int department, int salary){
